@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.control.TextField?>
 <VBox alignment="CENTER" spacing="5.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="ru.hehnev.chat.HelloController">
+      fx:controller="ru.hehnev.chat.EchoClient">
     <padding>
         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
     </padding>

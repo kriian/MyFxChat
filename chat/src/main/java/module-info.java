@@ -10,6 +10,9 @@ module ru.hehnev.chat {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires static lombok;
+    requires java.annotation;
+    requires java.logging;
 
     opens ru.hehnev.chat to javafx.fxml;
     exports ru.hehnev.chat;
